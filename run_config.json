@@ -1,0 +1,46 @@
+{
+  "run_fingerprint": "22be4a295ffaec16227670010837fba97804ad7caa88480403747072164bf8d2",
+  "config": {
+    "run_mode": "full",
+    "model_id": "openai/whisper-base.en",
+    "model_revision": "911407f4214e0e1d82085af863093ec0b66f9cd6",
+    "preparation_key": "a11c11db91a78156ac726ff0e88e5d56e61e72ad4fecbb06c6b755b685a5b593",
+    "manifest_sha256": {
+      "train": "caf3ca27b765e474c543a75b737b51a6800be96c943ed697506b1ccd0ed0018e",
+      "validation": "54de2721441e719fc9a2a1839802b09c7797c6e89d9d9a5fcd57fe7fbbecfec9",
+      "test": "0fdcacdb94374d23764ca426bcb91a219ae6a27a3aed0d49e25dcde2944ec529"
+    },
+    "seed": 42,
+    "batch_size": 4,
+    "gradient_accumulation": 8,
+    "eval_batch_size": 4,
+    "epochs": 3,
+    "max_steps": -1,
+    "learning_rate": 1e-05,
+    "warmup_ratio": 0.05,
+    "precision": "fp16",
+    "gradient_checkpointing": true,
+    "checkpoint_metric": "macro_wer",
+    "early_stopping_patience": 2,
+    "eval_strategy": "epoch",
+    "save_strategy": "epoch",
+    "recovery_save_steps": 250,
+    "decode": {
+      "beam_size": 3,
+      "max_new_tokens": 440,
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "vad_filter": false,
+      "hf_timestamps": false,
+      "ct2_scoring_timestamps": false,
+      "ct2_timestamp_diagnostic": true
+    },
+    "ct2_verify_per_source": 100,
+    "ct2_timestamp_tolerance_s": 0.5,
+    "max_ct2_wer_drift_pp": 1.0,
+    "transformers": "4.57.1",
+    "torch": "2.11.0+cu130",
+    "ctranslate2": "4.6.2",
+    "faster_whisper": "1.2.1"
+  }
+}

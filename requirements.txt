@@ -1,0 +1,6 @@
+faster-whisper==1.2.0
+ctranslate2==4.6.2
+soundfile==0.13.1
+scipy>=1.15,<2
+numpy>=2,<3
+sounddevice>=0.5,<0.6

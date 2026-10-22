@@ -1,0 +1,52 @@
+[
+  {
+    "file": "fleurs_0.wav",
+    "example_id": "fleurs:validation:0:318:1659",
+    "reference": "Scientists say the explosion caused by the collision was massive."
+  },
+  {
+    "file": "fleurs_1.wav",
+    "example_id": "fleurs:validation:0:240:1649",
+    "reference": "In Japan, the first cherry blossom parties were hosted by the emperor only for himself and other members of the aristocracy around the Imperial Court."
+  },
+  {
+    "file": "fleurs_2.wav",
+    "example_id": "fleurs:validation:0:51:1521",
+    "reference": "The satellite in space gets the call and then reflects it back down, almost instantly."
+  },
+  {
+    "file": "fleurs_3.wav",
+    "example_id": "fleurs:validation:0:165:1572",
+    "reference": "Three more bombs exploded near government buildings in a period of two hours."
+  },
+  {
+    "file": "fleurs_4.wav",
+    "example_id": "fleurs:validation:0:186:1547",
+    "reference": "NHK also reported that the Kashiwazaki Kariwa nuclear power plant in Niigata prefecture was operating normally."
+  },
+  {
+    "file": "ami_0.wav",
+    "example_id": "ami:AMI_IB4002_H00_MIO092_0119772_0119860",
+    "reference": "YEAH THAT'S A GOOD IDEA"
+  },
+  {
+    "file": "ami_1.wav",
+    "example_id": "ami:AMI_IS1008d_H02_FIE038_0128375_0128617",
+    "reference": "THAT'S ACTUALLY GOOD PLACE TO ADVERTISE IT TOO"
+  },
+  {
+    "file": "ami_2.wav",
+    "example_id": "ami:AMI_IB4003_H03_MIO039_0187659_0187799",
+    "reference": "WE DON'T HAVE CAFETERIA"
+  },
+  {
+    "file": "ami_3.wav",
+    "example_id": "ami:AMI_IB4004_H00_MIO036_0177838_0177897",
+    "reference": "OKAY"
+  },
+  {
+    "file": "ami_4.wav",
+    "example_id": "ami:AMI_IB4002_H03_MIO091_0078941_0079069",
+    "reference": "IF YOU'RE WORKING ON THE SAME PROJECT"
+  }
+]

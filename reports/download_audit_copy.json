@@ -1,0 +1,87 @@
+{
+  "status": "download_complete",
+  "config_hash": "dc205f52d95ea51c2812ba5c550f43159948e4931ed3357df477956834bcea85",
+  "audio_transformations": "none; source audio bytes preserved",
+  "ami_train_target_hours": 20.0,
+  "ami_train_actual_hours": 19.999908663194446,
+  "ami_train_target_shortfall_s": 0.32881249999263673,
+  "n_rejected": 1,
+  "pcm_cross_split_duplicates": [],
+  "ready_for_notebook_02": true,
+  "ready_for_training": false,
+  "next_action": "Preprocess, quarantine duplicates, freeze splits in notebook 02",
+  "summary": [
+    {
+      "source": "fleurs",
+      "split": "train",
+      "n_source": 2602,
+      "n_selected": 2602,
+      "n_saved": 2602,
+      "n_rejected": 0,
+      "hours_saved": 7.490805555555556,
+      "drive_gib": 1.3256707349792123,
+      "n_meetings": 0,
+      "n_speakers_known": 0
+    },
+    {
+      "source": "fleurs",
+      "split": "validation",
+      "n_source": 394,
+      "n_selected": 394,
+      "n_saved": 394,
+      "n_rejected": 0,
+      "hours_saved": 1.0458833333333333,
+      "drive_gib": 0.16867109015583992,
+      "n_meetings": 0,
+      "n_speakers_known": 0
+    },
+    {
+      "source": "fleurs",
+      "split": "test",
+      "n_source": 647,
+      "n_selected": 647,
+      "n_saved": 647,
+      "n_rejected": 0,
+      "hours_saved": 1.7744166666666665,
+      "drive_gib": 0.28560568392276764,
+      "n_meetings": 0,
+      "n_speakers_known": 0
+    },
+    {
+      "source": "ami",
+      "split": "train",
+      "n_source": 108502,
+      "n_selected": 27438,
+      "n_saved": 27437,
+      "n_rejected": 1,
+      "hours_saved": 19.999908663194446,
+      "drive_gib": 2.041246804408729,
+      "n_meetings": 137,
+      "n_speakers_known": 155
+    },
+    {
+      "source": "ami",
+      "split": "validation",
+      "n_source": 13098,
+      "n_selected": 13098,
+      "n_saved": 13098,
+      "n_rejected": 0,
+      "hours_saved": 8.941755763888889,
+      "drive_gib": 1.0121016819030046,
+      "n_meetings": 18,
+      "n_speakers_known": 21
+    },
+    {
+      "source": "ami",
+      "split": "test",
+      "n_source": 12643,
+      "n_selected": 12643,
+      "n_saved": 12643,
+      "n_rejected": 0,
+      "hours_saved": 8.681477934027779,
+      "drive_gib": 0.8194972472265363,
+      "n_meetings": 16,
+      "n_speakers_known": 16
+    }
+  ]
+}

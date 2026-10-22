@@ -1,0 +1,9 @@
+{
+  "identity": {
+    "run_fingerprint": "22be4a295ffaec16227670010837fba97804ad7caa88480403747072164bf8d2",
+    "hf_model_sha256": "13613aea0b611e7572f96987a885d698ae6879d242415ec72e4bbfffc61f6f69",
+    "quantization": "int8",
+    "ctranslate2": "4.6.2"
+  },
+  "model_sha256": "c0a25504f2a38f7c627ce914fd4053c47cb51f3b7466564daeb7082cf30ef319"
+}

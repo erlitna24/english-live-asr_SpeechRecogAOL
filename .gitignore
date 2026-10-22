@@ -1,0 +1,23 @@
+# Virtual environments
+speech_recog_AOL/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local transcription outputs
+live_sessions/
+
+# Secrets and local settings
+.env
+.env.*
+.DS_Store
+.vscode/
+
+# Archives and backups
+*.zip
+deployment/
+archive/

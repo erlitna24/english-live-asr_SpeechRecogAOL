@@ -1,0 +1,17 @@
+{
+  "run_fingerprint": "22be4a295ffaec16227670010837fba97804ad7caa88480403747072164bf8d2",
+  "model_sha256": "13613aea0b611e7572f96987a885d698ae6879d242415ec72e4bbfffc61f6f69",
+  "best_checkpoint": "/content/drive/MyDrive/Speech_ASR/runs/full/fleurs_ami_v1_rerun/checkpoints/checkpoint-939",
+  "best_macro_wer": 12.383410427693164,
+  "global_step": 2817,
+  "epoch": 3.0,
+  "train_metrics": {
+    "train_runtime": 17994.233,
+    "train_samples_per_second": 5.007,
+    "train_steps_per_second": 0.157,
+    "total_flos": 5.84382079401984e+18,
+    "train_loss": 0.2861137964812669,
+    "epoch": 3.0
+  },
+  "amp_skipped_updates_this_session": 0
+}

@@ -1,0 +1,1 @@
+git+https://github.com/collabora/WhisperLive.git@f26bdd5294ace7d31020ca00e04e7b14c2b7d954

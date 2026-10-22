@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "preparation_key": "a11c11db91a78156ac726ff0e88e5d56e61e72ad4fecbb06c6b755b685a5b593",
+  "ready_for_training": true,
+  "manifest_sha256": {
+    "train": "caf3ca27b765e474c543a75b737b51a6800be96c943ed697506b1ccd0ed0018e",
+    "validation": "54de2721441e719fc9a2a1839802b09c7797c6e89d9d9a5fcd57fe7fbbecfec9",
+    "test": "0fdcacdb94374d23764ca426bcb91a219ae6a27a3aed0d49e25dcde2944ec529"
+  },
+  "summary": [
+    {
+      "source": "fleurs",
+      "split": "train",
+      "n_kept": 2596,
+      "hours_kept": 7.435122222222222,
+      "n_excluded": 6,
+      "low_level_flags": 0
+    },
+    {
+      "source": "ami",
+      "split": "train",
+      "n_kept": 27437,
+      "hours_kept": 19.999908663194446,
+      "n_excluded": 0,
+      "low_level_flags": 1
+    },
+    {
+      "source": "fleurs",
+      "split": "validation",
+      "n_kept": 393,
+      "hours_kept": 1.0370666666666666,
+      "n_excluded": 1,
+      "low_level_flags": 0
+    },
+    {
+      "source": "ami",
+      "split": "validation",
+      "n_kept": 13098,
+      "hours_kept": 8.941755763888889,
+      "n_excluded": 0,
+      "low_level_flags": 0
+    },
+    {
+      "source": "fleurs",
+      "split": "test",
+      "n_kept": 647,
+      "hours_kept": 1.7744166666666665,
+      "n_excluded": 0,
+      "low_level_flags": 0
+    },
+    {
+      "source": "ami",
+      "split": "test",
+      "n_kept": 12643,
+      "hours_kept": 8.681477934027779,
+      "n_excluded": 0,
+      "low_level_flags": 0
+    }
+  ],
+  "n_excluded": 7,
+  "tag_counts_preserved": {
+    "[wales]": 2,
+    "[w]": 2,
+    "[the show]": 3,
+    "[c]": 1
+  },
+  "cross_split_duplicate_hashes": 0,
+  "audio_policy": "raw lossless representation retained; verified mono/resample to 16k on read",
+  "text_policy": "NFC, lowercase, whitespace only; source tags reported and preserved",
+  "split_policy": "official splits, no random resplit; cross-split PCM duplicates excluded everywhere"
+}

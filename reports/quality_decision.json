@@ -1,0 +1,15 @@
+{
+  "run_fingerprint": "22be4a295ffaec16227670010837fba97804ad7caa88480403747072164bf8d2",
+  "test_wer_delta_pp": {
+    "fleurs": 2.689263954058406,
+    "ami": -18.553627654585647,
+    "combined": -15.632553615623888
+  },
+  "ami_improved": true,
+  "fleurs_regression_within_1pp": false,
+  "offline_target_met": false,
+  "ct2_gate_passed": false,
+  "laptop_benchmark_done": false,
+  "live_latency_test_done": false,
+  "cs_domain_accuracy_proven": false
+}
